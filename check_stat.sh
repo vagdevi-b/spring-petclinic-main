@@ -1,3 +1,4 @@
+set -x
 url="http://localhost:8081"
 expected_status="200"
 http_code=$(curl -s -o /dev/null -w "%{http_code}" "$url")
